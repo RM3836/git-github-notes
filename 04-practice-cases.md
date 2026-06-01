@@ -14,12 +14,12 @@
 
 ```bash
 # 1. 找到文件（微信文件路径）
-ls -la "/mnt/d/software/xwechat_files/wxid_fmd2e6dobxkw22_bb0e/msg/file/2026-06/202310012730余凯楠+网络规划和设计大作业PDF.doc"
+ls -la "/mnt/d/software/xwechat_files/wxid_fmd2e6dobxkw22_bb0e/msg/file/2026-06/202310012730YURM+网络规划和设计大作业PDF.doc"
 
 # 2. 创建项目目录并复制文件
 mkdir -p ~/network-planning-assignment
 cd ~/network-planning-assignment
-cp "/mnt/d/software/xwechat_files/wxid_fmd2e6dobxkw22_bb0e/msg/file/2026-06/202310012730余凯楠+网络规划和设计大作业PDF.doc" .
+cp "/mnt/d/software/xwechat_files/wxid_fmd2e6dobxkw22_bb0e/msg/file/2026-06/202310012730YURM+网络规划和设计大作业PDF.doc" .
 
 # 3. 初始化 Git 并提交
 git init
@@ -29,7 +29,7 @@ git commit -m "添加网络规划与设计大作业文档"
 # 4. 创建 GitHub 仓库并推送（一步完成）
 gh repo create network-planning-assignment \
   --public \
-  --description "网络规划与设计大作业 - 余凯楠 广州应用科技学院" \
+  --description "网络规划与设计大作业 - YURM 广州应用科技学院" \
   --source=. \
   --remote=origin \
   --push
@@ -39,7 +39,7 @@ gh repo create network-planning-assignment \
 
 ```
 仓库地址：https://github.com/RM3836/network-planning-assignment
-文件名：202310012730余凯楠+网络规划和设计大作业PDF.doc
+文件名：202310012730YURM+网络规划和设计大作业PDF.doc
 文件大小：约20MB
 页数：62页
 创建工具：WPS Office

@@ -81,7 +81,7 @@ gh pr list
 
 ```bash
 # 设置用户信息
-git config --global user.name "余凯楠"
+git config --global user.name "YURM"
 git config --global user.email "steam3836@foxmail.com"
 
 # 解决中文乱码
